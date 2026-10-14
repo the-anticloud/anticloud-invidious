@@ -1,0 +1,38 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:a587f558-5fb9-5f39-aa8c-f4c271e862e9",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-10-05T17:23:19Z",
+    "component": {
+      "type": "application",
+      "name": "INVIDIOUS",
+      "version": "381c6e8c929f",
+      "bom-ref": "pkg:generic/anticloud/INVIDIOUS@381c6e8c929f",
+      "purl": "pkg:generic/anticloud/INVIDIOUS@381c6e8c929f",
+      "licenses": [
+        {
+          "license": {
+            "id": "AGPL-3.0"
+          }
+        }
+      ]
+    },
+    "properties": [
+      {
+        "name": "anticloud:source-commit",
+        "value": "381c6e8c929ff9368bd3ee6dc9fac0ee7013ae72"
+      },
+      {
+        "name": "anticloud:source-url",
+        "value": "https://github.com/iv-org/invidious"
+      },
+      {
+        "name": "anticloud:tier",
+        "value": "tier-agent"
+      }
+    ]
+  },
+  "components": []
+}
